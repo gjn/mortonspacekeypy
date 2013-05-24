@@ -129,7 +129,7 @@ class QuadTree:
         return res
 
     def bbox_to_morton(self, bbox):
-        return self.multi_points_dia1(bbox)
+        return self._multi_points_dia1(bbox)
 
     '''
     next 6 functions should deliver the same result
